@@ -7,7 +7,7 @@ function App() {
 
   return <div className="App">主页
     <ul>
-      <li><a href="/">home</a></li>
+      <li>home</li>
       <li><a href="/user/">user</a></li>
     </ul>
   </div>;
