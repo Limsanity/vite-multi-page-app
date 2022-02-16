@@ -8,7 +8,7 @@ function App() {
   return <div className="App">主页
     <ul>
       <li>home</li>
-      <li><a href="/user/">user</a></li>
+      <li><a href="/user/">user 用户</a></li>
     </ul>
   </div>;
 }
