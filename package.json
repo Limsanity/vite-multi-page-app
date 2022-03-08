@@ -1,14 +1,17 @@
 {
   "name": "vite-app",
   "version": "0.0.0",
+  "license": "MIT",
   "scripts": {
     "dev": "vite --port=3002",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --emptyOutDir ",
     "serve": "vite preview"
   },
   "dependencies": {
+    "global": "^4.4.0",
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "server": "^1.0.37"
   },
   "devDependencies": {
     "@types/node": "^16.4.3",

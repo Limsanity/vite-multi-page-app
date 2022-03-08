@@ -10,9 +10,12 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, "src/pages/index.html"),
+        index: resolve(__dirname, "src/pages/index.html"),
+        main: resolve(__dirname, "src/pages/home/index.html"),
         nested: resolve(__dirname, "src/pages/user/index.html"),
+
       },
     },
+    outDir: "../../dist"
   },
 });
